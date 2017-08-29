@@ -27,6 +27,7 @@
       <v-toolbar-items class="hidden-xs-only">
         <v-btn
           flat
+          exact
           v-for="item in items"
           :key="item.title"
           :to="item.to">
