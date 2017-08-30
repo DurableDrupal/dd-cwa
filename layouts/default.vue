@@ -56,7 +56,7 @@
             </v-btn>
           </v-flex>
         </v-layout>
-        <div class="mt-2">Texts © 2017 authored by Victor Kane CC-BY-SA (unless otherwise stated) Creative Commons Attribution-ShareAlike 4.0 International License @victorkane</div>
+        <div class="mt-2">Texts © 2017 authored by Victor Kane CC-BY-SA (unless otherwise stated) Creative Commons Attribution-ShareAlike 4.0 International License <v-btn fab small primary dark title="@praxispoetica" href="http://twitter.com/praxispoetica"><v-icon>fa-twitter</v-icon></v-btn></div>
       </v-container>
     </v-footer>
   </v-app>
