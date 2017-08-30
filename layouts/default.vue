@@ -42,7 +42,22 @@
       </v-container>
     </main>
     <v-footer class="primary pa-3">
-        <div>Texts © 2017 authored by Victor Kane CC-BY-SA @victorkane (unless otherwise stated) Creative Commons Attribution-ShareAlike 4.0 International License</div>
+      <v-container fluid>
+        <v-layout>
+          <v-flex>
+            <v-btn
+              flat
+              exact
+              v-for="fitem in footerItems"
+              :key="fitem.title"
+              :to="fitem.to"
+              class="grey--text text--lighten-4 pa-3">
+              {{ fitem.title }}
+            </v-btn>
+          </v-flex>
+        </v-layout>
+        <div class="mt-2">Texts © 2017 authored by Victor Kane CC-BY-SA (unless otherwise stated) Creative Commons Attribution-ShareAlike 4.0 International License @victorkane</div>
+      </v-container>
     </v-footer>
   </v-app>
 </template>
@@ -53,10 +68,18 @@
       return {
         sideNav: false,
         items: [
-          { icon: 'home', title: 'Inicio', to: '/' },
+          { icon: 'group', title: 'Talleres', to: '/talleres' },
           { icon: 'create', title: 'Textos', to: '/textos' },
-          { icon: 'group', title: 'Nosotros', to: '/nosotros' },
-          { icon: 'comment', title: 'Contacto', to: '/contacto' }
+          { icon: 'comment', title: 'Contacto', to: '/contacto' },
+          { icon: 'info', title: 'Nosotros', to: '/nosotros' }
+        ],
+        footerItems: [
+          { icon: 'home', title: 'Inicio', to: '/' },
+          { icon: 'group', title: 'Talleres', to: '/talleres' },
+          { icon: 'create', title: 'Textos', to: '/textos' },
+          { icon: 'comment', title: 'Contacto', to: '/contacto' },
+          { icon: 'info', title: 'Nosotros', to: '/nosotros' },
+          { icon: 'info', title: 'Technología', to: '/technology' }
         ]
       }
     }
