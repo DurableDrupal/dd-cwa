@@ -42,7 +42,6 @@
       </v-container>
     </main>
     <v-footer class="primary pa-3">
-        <v-spacer></v-spacer>
         <div>Texts © 2017 authored by Victor Kane CC-BY-SA @victorkane (unless otherwise stated) Creative Commons Attribution-ShareAlike 4.0 International License</div>
     </v-footer>
   </v-app>
@@ -86,6 +85,7 @@
 }
 
 .application--light .footer {
+  text-align: center;
   height: auto;
   color: #fff8e1;
 }
