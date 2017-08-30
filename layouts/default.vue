@@ -55,9 +55,33 @@
         sideNav: false,
         items: [
           { icon: 'home', title: 'Inicio', to: '/' },
-          { icon: 'group', title: 'Artists', to: '/nosotros' }
+          { icon: 'create', title: 'Textos', to: '/textos' },
+          { icon: 'group', title: 'Nosotros', to: '/nosotros' },
+          { icon: 'comment', title: 'Contacto', to: '/contacto' }
         ]
       }
     }
   }
 </script>
+
+<style>
+/* colors based on https://material.io/guidelines/style/color.html#color-color-palette and not vuetify palette */
+.application--light {
+  background-image: url("/img/background.jpg");
+  background-repeat: no-repeat;
+  background-color: #fff8e1;
+}
+
+.application--light .card,
+.application--light .navigation-drawer,
+.application--light .navigation-drawer .list,
+.application--light .toolbar {
+  background-color: #fff8e1;
+}
+
+.logo img {
+  width: 100%;
+  height: auto !important;
+  margin-top: 10px;
+}
+</style>
