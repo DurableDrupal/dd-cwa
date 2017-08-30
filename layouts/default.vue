@@ -68,6 +68,7 @@
 /* colors based on https://material.io/guidelines/style/color.html#color-color-palette and not vuetify palette */
 .application--light {
   background-image: url("/img/background.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #fff8e1;
 }
