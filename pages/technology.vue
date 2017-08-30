@@ -23,7 +23,7 @@
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn primary flat nuxt to="/inspire">Continue</v-btn>
+          <v-btn primary flat nuxt href="https://github.com/praxispoetica/praxispoeticadotcom" target="_blank">Fork this app on GitHub</v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
