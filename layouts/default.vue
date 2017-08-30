@@ -41,9 +41,9 @@
         <nuxt />
       </v-container>
     </main>
-    <v-footer class="pa-3">
+    <v-footer class="primary pa-3">
         <v-spacer></v-spacer>
-        <div>Texts Copyright © 2017 authored by Victor Kane CC-BY-SA @victorkane (unless otherwise stated) Creative Commons Attribution-ShareAlike 4.0 International License</div>
+        <div>Texts © 2017 authored by Victor Kane CC-BY-SA @victorkane (unless otherwise stated) Creative Commons Attribution-ShareAlike 4.0 International License</div>
     </v-footer>
   </v-app>
 </template>
@@ -77,6 +77,16 @@
 .application--light .navigation-drawer .list,
 .application--light .toolbar {
   background-color: #fff8e1;
+}
+
+.application, .application>main>.container {
+  min-height: 100%;
+  margin-bottom: 1em;
+}
+
+.application--light .footer {
+  height: auto;
+  color: #fff8e1;
 }
 
 .logo img {
