@@ -19,7 +19,7 @@ export const state = () => ({
     {
       titulo: 'Sed Errizle',
       slug: 'sed-errizle',
-      texto: '<p>Sed erizzle. Boofron izzle dolor fo shizzle turpis tempizzle crazy...</p>'
+      texto: '<p><strong>Sed erizzle</strong>. Boofron izzle dolor fo shizzle turpis tempizzle crazy...</p>'
     },
     {
       titulo: 'Crunk Vizzle',
