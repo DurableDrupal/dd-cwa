@@ -1,9 +1,7 @@
 <template>
   <div class="container">
-  <!--
-    <h1>{{ texto.titulo }}</h1>
-    <pre>{{ texto.texto }}</pre>
-  -->
+    <h2>{{textos.find(x => x.slug === slug).titulo}}</h2>
+    <div v-html="textos.find(x => x.slug === slug).texto"></div>
     <p><nuxt-link to="/textos">Volver a la lista de textos</nuxt-link></p>
   </div>
 </template>
@@ -14,8 +12,11 @@
     computed: mapState([
       'textos'
     ]),
-    texto: function () {
-      return this.textos[0]
+    async asyncData ({ params }) {
+      console.log('params', params)
+      return {
+        slug: params.id
+      }
     }
   }
 </script>
