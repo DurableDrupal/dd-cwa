@@ -2,8 +2,8 @@
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
       <div class="text-xs-center">
-        <img src="http://awebfactory.com/files/logo.png" alt="AWebFactory.com" class="pa-2 mb-5" />
-        <img src="/img/v.png" alt="Vuetify.js" class="grey lighten-4 pa-2 mb-5" />
+        <a href="http://awebfactory.com" target="_blank"><img src="http://awebfactory.com/files/logo.png" alt="AWebFactory.com" class="pa-2 mb-5" /></a>
+        <a href="https://vuetifyjs.com/" target="_blank"><img src="/img/v.png" alt="Vuetify.js" class="grey lighten-4 pa-2 mb-5" /></a>
       </div>
       <v-card>
         <v-card-title class="headline">Powered by AWebFactory using the Vuetify + Nuxt.js template</v-card-title>
