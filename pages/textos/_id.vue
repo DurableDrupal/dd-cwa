@@ -3,6 +3,7 @@
     <v-layout row wrap>
       <v-flex xs12>
         <v-card class="ma-1">
+          <v-card-title class="headline mb-1">{{texto.titulo}}</v-card-title>
           <v-card-text>
             <p class="primary--text subheading mt-0">{{texto.autor}}</p>
             <blockquote class="body-1" v-html="texto.texto"></blockquote>
