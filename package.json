@@ -1,12 +1,12 @@
 {
-  "name": "praxispoeticadotcom",
+  "name": "durabledrupal.org",
   "version": "1.0.0",
-  "description": "Website comunidad praxispoetica",
+  "description": "DurableDrupal Website",
   "author": "Victor Kane <victorkane@gmail.com>",
   "config": {
     "nuxt": {
       "host": "0.0.0.0",
-      "port": "4041"
+      "port": "4072"
     }
   },
   "scripts": {
