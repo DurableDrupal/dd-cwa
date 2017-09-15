@@ -71,15 +71,15 @@
           { icon: 'group', title: 'Support', to: '/support' },
           { icon: 'create', title: 'Textos', to: '/textos' },
           { icon: 'comment', title: 'Contact', to: '/contact' },
-          { icon: 'info', title: 'Nosotros', to: '/nosotros' }
+          { icon: 'info', title: 'Who we are', to: '/us' }
         ],
         footerItems: [
-          { icon: 'home', title: 'Inicio', to: '/' },
+          { icon: 'home', title: 'Main', to: '/' },
           { icon: 'group', title: 'Support', to: '/support' },
           { icon: 'create', title: 'Textos', to: '/textos' },
-          { icon: 'comment', title: 'Contacto', to: '/contacto' },
-          { icon: 'info', title: 'Nosotros', to: '/nosotros' },
-          { icon: 'info', title: 'Technología', to: '/technology' }
+          { icon: 'comment', title: 'Contact', to: '/contact' },
+          { icon: 'info', title: 'Who we are', to: '/us' },
+          { icon: 'info', title: 'Technology', to: '/technology' }
         ]
       }
     }
