@@ -68,14 +68,14 @@
       return {
         sideNav: false,
         items: [
-          { icon: 'group', title: 'Talleres', to: '/talleres' },
+          { icon: 'group', title: 'Support', to: '/support' },
           { icon: 'create', title: 'Textos', to: '/textos' },
           { icon: 'comment', title: 'Contacto', to: '/contacto' },
           { icon: 'info', title: 'Nosotros', to: '/nosotros' }
         ],
         footerItems: [
           { icon: 'home', title: 'Inicio', to: '/' },
-          { icon: 'group', title: 'Talleres', to: '/talleres' },
+          { icon: 'group', title: 'Support', to: '/support' },
           { icon: 'create', title: 'Textos', to: '/textos' },
           { icon: 'comment', title: 'Contacto', to: '/contacto' },
           { icon: 'info', title: 'Nosotros', to: '/nosotros' },
