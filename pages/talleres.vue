@@ -2,10 +2,11 @@
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
       <v-card>
-        <v-card-title class="headline">Los Talleres de PraxisPoetica</v-card-title>
+        <v-card-title class="headline">Support our work!</v-card-title>
         <v-card-text>
-          <p>A la brevedad podrás acceder a un taller literario y conocer métodos popularizados por <a href="http://www.bibliotecateatral.org.ar/mediza.htm" target="_blank">Alberto Mediza</a> en los años setenta.</p>
-          <p>Comunicarse con nosotros a través de <v-btn fab small primary dark title="@praxispoetica" href="http://twitter.com/praxispoetica"><v-icon>fa-twitter</v-icon></v-btn> Twitter</p>
+          <p>Donate with <a href="https://www.paypal.com" target="_blank">PayPal</a> or <a href="https://blockchain.info" target="_blank">BitCoin</a></p>
+          <p>Check our <a href="https://github.com/DurableDrupal/awebfactory-content-migration-rescue" target="_blank">GitHub Repo</a> and help us to reach 100 stars by <a href="#" target="_blank">giving us one</a></p>
+          <p>Comunicarse con nosotros a través de <v-btn fab small primary dark title="@durable_drupal" href="http://twitter.com/durable_drupal"><v-icon>fa-twitter</v-icon></v-btn> Twitter</p>
         </v-card-text>
       </v-card>
     </v-flex>
