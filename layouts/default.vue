@@ -92,14 +92,14 @@
   background-image: url("/img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #fff8e1;
+  background-color: #4E94B9;
 }
 
 .application--light .card,
 .application--light .navigation-drawer,
 .application--light .navigation-drawer .list,
 .application--light .toolbar {
-  background-color: #fff8e1;
+  background-color: #4E94B9;
 }
 
 .application, .application>main>.container {
@@ -110,7 +110,7 @@
 .application--light .footer {
   text-align: center;
   height: auto;
-  color: #fff8e1;
+  color: #4E94B9;
 }
 
 .logo img {
