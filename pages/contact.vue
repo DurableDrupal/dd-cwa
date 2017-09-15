@@ -4,10 +4,11 @@
       <v-card>
         <v-card-title class="headline">Contact DurableDrupal</v-card-title>
         <v-card-text>
-          <p>Reach us at </p>
+          <p>Reach us at</p>
           <p>
-             <v-btn fab small primary dark title="@durable_drupal" href="http://twitter.com/durable_drupal/"><v-icon>fa-twitter</v-icon></v-btn> Twitter or 
-             <v-btn fab small primary dark title="@DurableDrupal" href="https://www.facebook.com/DurableDrupal/"><v-icon>fa-facebook</v-icon></v-btn> Facebook
+             <v-btn flat dark primary title="@durable_drupal" href="http://twitter.com/durable_drupal/">Twitter</v-btn>
+             <v-btn flat dark primary title="@durable_drupal" href="http://twitter.com/durable_drupal/">Twitter</v-btn> or 
+             <v-btn flat dark primary title="@DurableDrupal" href="https://www.facebook.com/DurableDrupal/">Facebook</v-btn>
           </p>
         </v-card-text>
       </v-card>
