@@ -70,7 +70,7 @@
         items: [
           { icon: 'group', title: 'Support', to: '/support' },
           { icon: 'create', title: 'Textos', to: '/textos' },
-          { icon: 'comment', title: 'Contacto', to: '/contacto' },
+          { icon: 'comment', title: 'Contact', to: '/contact' },
           { icon: 'info', title: 'Nosotros', to: '/nosotros' }
         ],
         footerItems: [
