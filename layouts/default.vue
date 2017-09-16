@@ -20,7 +20,7 @@
       <v-toolbar-side-icon @click.stop="sideNav = !sideNav" class="hidden-sm-and-up"></v-toolbar-side-icon>
       <v-toolbar-title>
         <nuxt-link to="/">
-          <img class="logo" src="/logo.png" alt="PraxisPoetica" title="PraxisPoetica" />
+          <img class="logo" src="/logo.png" alt="DurableDrupal" title="DurableDrupal" />
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
@@ -70,7 +70,7 @@
         items: [
           { icon: 'group', title: 'Support', to: '/support' },
           { icon: 'group', title: 'Atract Clients', to: '/atractclients' },
-          { icon: 'create', title: 'Textos', to: '/textos' },
+          { icon: 'create', title: 'Blog', to: '/blogs' },
           { icon: 'comment', title: 'Contact', to: '/contact' },
           { icon: 'info', title: 'Who we are', to: '/us' },
           { icon: 'info', title: 'Technology', to: '/technology' }
@@ -79,7 +79,7 @@
           { icon: 'home', title: 'Main', to: '/' },
           { icon: 'group', title: 'Support', to: '/support' },
           { icon: 'group', title: 'Atract Clients', to: '/atractclients' },
-          { icon: 'create', title: 'Textos', to: '/textos' },
+          { icon: 'create', title: 'Blog', to: '/blogs' },
           { icon: 'comment', title: 'Contact', to: '/contact' },
           { icon: 'info', title: 'Who we are', to: '/us' },
           { icon: 'info', title: 'Technology', to: '/technology' }
