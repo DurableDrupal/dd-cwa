@@ -41,7 +41,7 @@
         <nuxt />
       </v-container>
     </main>
-    <v-footer class="primary pa-3">
+    <v-footer class="success pa-3">
       <v-container fluid>
         <v-layout>
           <v-flex>
@@ -69,13 +69,16 @@
         sideNav: false,
         items: [
           { icon: 'group', title: 'Support', to: '/support' },
+          { icon: 'group', title: 'Atract Clients', to: '/atractclients' },
           { icon: 'create', title: 'Textos', to: '/textos' },
           { icon: 'comment', title: 'Contact', to: '/contact' },
-          { icon: 'info', title: 'Who we are', to: '/us' }
+          { icon: 'info', title: 'Who we are', to: '/us' },
+          { icon: 'info', title: 'Technology', to: '/technology' }
         ],
         footerItems: [
           { icon: 'home', title: 'Main', to: '/' },
           { icon: 'group', title: 'Support', to: '/support' },
+          { icon: 'group', title: 'Atract Clients', to: '/atractclients' },
           { icon: 'create', title: 'Textos', to: '/textos' },
           { icon: 'comment', title: 'Contact', to: '/contact' },
           { icon: 'info', title: 'Who we are', to: '/us' },
@@ -92,14 +95,14 @@
   background-image: url("/img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #4E94B9;
+  background-color: #5e92f3;
 }
 
 .application--light .card,
 .application--light .navigation-drawer,
 .application--light .navigation-drawer .list,
 .application--light .toolbar {
-  background-color: #4E94B9;
+  background-color: #5e92f3;
 }
 
 .application, .application>main>.container {
@@ -110,7 +113,7 @@
 .application--light .footer {
   text-align: center;
   height: auto;
-  color: #4E94B9;
+  color: #5e92f3;
 }
 
 .logo img {
