@@ -27,6 +27,7 @@
       <v-toolbar-items class="hidden-xs-only">
         <v-btn
           flat
+          class="grey--text text--darken-3"
           exact
           v-for="item in items"
           :key="item.title"
@@ -41,7 +42,7 @@
         <nuxt />
       </v-container>
     </main>
-    <v-footer class="success pa-3">
+    <v-footer class="pa-3">
       <v-container fluid>
         <v-layout>
           <v-flex>
@@ -51,12 +52,12 @@
               v-for="fitem in footerItems"
               :key="fitem.title"
               :to="fitem.to"
-              class="grey--text text--lighten-4 pa-3">
+              class="grey--text text--darken-3 pa-3">
               {{ fitem.title }}
             </v-btn>
           </v-flex>
         </v-layout>
-        <div class="mt-2">Texts © 2017 authored by Victor Kane CC-BY-SA (unless otherwise stated) Creative Commons Attribution-ShareAlike 4.0 International License <v-btn fab small primary dark title="@praxispoetica" href="http://twitter.com/praxispoetica"><v-icon>fa-twitter</v-icon></v-btn></div>
+        <div class="mt-2 blue--text text--darken-4">Texts © 2017 authored by Victor Kane CC-BY-SA (unless otherwise stated) Creative Commons Attribution-ShareAlike 4.0 International License <v-btn fab small primary dark title="@praxispoetica" href="http://twitter.com/praxispoetica"><v-icon>fa-twitter</v-icon></v-btn></div>
       </v-container>
     </v-footer>
   </v-app>
@@ -101,7 +102,8 @@
 .application--light .card,
 .application--light .navigation-drawer,
 .application--light .navigation-drawer .list,
-.application--light .toolbar {
+.application--light .toolbar,
+.application--light .footer {
   background-color: #5e92f3;
 }
 
@@ -113,7 +115,7 @@
 .application--light .footer {
   text-align: center;
   height: auto;
-  color: #5e92f3;
+  color: #5e92f3; 
 }
 
 .logo img {
