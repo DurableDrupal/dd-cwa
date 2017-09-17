@@ -5,7 +5,7 @@
       <v-card class="success ma-1">
         <v-card-title class="headline blog-card">
           <nuxt-link class="text--light-blue text--darken-3" :to="{ name: 'blogs-id', params: { id: blog.slug } }">
-            {{ blog.blog }}
+            {{ blog.titulo }}
           </nuxt-link>
         </v-card-title>
         <v-card-text>
@@ -35,8 +35,10 @@
   text-decoration: none !important;
   padding: 2px !important;
 }
+.blog-card a:active,
 .blog-card a:hover {
-  color: #0277BD !important;
+  /* color: #0277BD !important; */
+  color: white !important;
   background-color: #01579B !important;
 }
 </style>
