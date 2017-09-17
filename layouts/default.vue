@@ -104,7 +104,8 @@
 .application--light .navigation-drawer .list,
 .application--light .toolbar/*,
 .application--light .footer */ {
-  background-color: #5e92f3;
+  /* background-color: #5e92f3; */
+  background-color: #b3e5fc;
 }
 
 .application, .application>main>.container {
