@@ -27,12 +27,12 @@
       <v-toolbar-items class="hidden-xs-only">
         <v-btn
           flat
-          class="grey--text text--darken-3"
+          class="grey--text text--lighten-4"
           exact
           v-for="item in items"
           :key="item.title"
           :to="item.to">
-          <v-icon left light>{{ item.icon }}</v-icon>
+          <v-icon left success>{{ item.icon }}</v-icon>
           {{ item.title }}
         </v-btn>
       </v-toolbar-items>
@@ -104,7 +104,9 @@
 .application--light .navigation-drawer .list,
 .application--light .toolbar/*,
 .application--light .footer */ {
-  background-color: #5e92f3;
+/*  background-color: #0277bd;*/
+  background-color: #0288d1;
+  
 }
 
 .application, .application>main>.container {
