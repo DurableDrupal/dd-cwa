@@ -42,7 +42,7 @@
         <nuxt />
       </v-container>
     </main>
-    <v-footer class="pa-3">
+    <v-footer class="info pa-3">
       <v-container fluid>
         <v-layout>
           <v-flex>
@@ -52,12 +52,12 @@
               v-for="fitem in footerItems"
               :key="fitem.title"
               :to="fitem.to"
-              class="grey--text text--darken-3 pa-3">
+              class="grey--text text--lighten-3 pa-3">
               {{ fitem.title }}
             </v-btn>
           </v-flex>
         </v-layout>
-        <div class="mt-2 blue--text text--darken-4">Texts © 2017 authored by Victor Kane CC-BY-SA (unless otherwise stated) Creative Commons Attribution-ShareAlike 4.0 International License <v-btn fab small primary dark title="@praxispoetica" href="http://twitter.com/praxispoetica"><v-icon>fa-twitter</v-icon></v-btn></div>
+        <div class="grey--text text--lighten-3 mt-2">Texts © 2017 authored by Victor Kane CC-BY-SA (unless otherwise stated) Creative Commons Attribution-ShareAlike 4.0 International License <v-btn fab small primary dark title="@praxispoetica" href="http://twitter.com/praxispoetica"><v-icon>fa-twitter</v-icon></v-btn></div>
       </v-container>
     </v-footer>
   </v-app>
@@ -96,14 +96,14 @@
   background-image: url("/img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #5e92f3;
+/*  background-color: #5e92f3;*/
 }
 
-.application--light .card,
+/* .application--light .card,*/ 
 .application--light .navigation-drawer,
 .application--light .navigation-drawer .list,
-.application--light .toolbar,
-.application--light .footer {
+.application--light .toolbar/*,
+.application--light .footer */ {
   background-color: #5e92f3;
 }
 
@@ -115,7 +115,7 @@
 .application--light .footer {
   text-align: center;
   height: auto;
-  color: #5e92f3; 
+/*  color: #5e92f3; */ 
 }
 
 .logo img {
@@ -123,4 +123,5 @@
   height: auto !important;
   margin-top: 10px;
 }
+
 </style>
