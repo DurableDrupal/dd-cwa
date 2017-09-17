@@ -1,15 +1,15 @@
+@require '../../node_modules/vuetify/src/stylus/settings/_colors' //added acording vuetify documentation
 // Specify overrides (theme and/or base variables etc.)
 // See https://vuetifyjs.com/quick-start
 $theme := {
-  // we take 0d47a1 form material design similar to durabledrupal logo
-  // see https://material.io/color/#!/?view.left=0&view.right=0&primary.color=0D47A1&secondary.color=1565C0
-  primary: #0d47a1   // used 0d47a1 as base, the 2nd darkest
-  accent: #002171    // darkest
-  secondary: #1565c0  // Check out https://ux.stackexchange.com/questions/89815/choosing-colors-in-material-design
-  info: #5472d3
-  warning: #003c8f
-  error: #5e92f3
-  success: #5472d3
+  primary: $light-blue.darken-3
+  accent: $light-blue.accent-3
+  secondary: $grey.lighten-3
+  info: $light-blue.darken-4
+  warning: $amber.base
+  error: $red.base
+  success: $light-blue.lighten-4
+  
 }
 
 // Import Vuetify styling
@@ -17,4 +17,3 @@ $theme := {
 
 .page
   @extend .fade-transition
-
