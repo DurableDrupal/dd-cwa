@@ -2,9 +2,9 @@
  <v-container>
   <v-layout row wrap>
     <v-flex xs12 sm3 v-for="blog in blogs" :key="blog.slug">
-      <v-card class="ma-1">
+      <v-card class="success ma-1">
         <v-card-title class="headline blog-card">
-          <nuxt-link :to="{ name: 'blogs-id', params: { id: blog.slug } }">
+          <nuxt-link class="text--light-blue text--darken-3" :to="{ name: 'blogs-id', params: { id: blog.slug } }">
             {{ blog.blog }}
           </nuxt-link>
         </v-card-title>
@@ -36,7 +36,7 @@
   padding: 2px !important;
 }
 .blog-card a:hover {
-  color: #fff8e1 !important;
-  background-color: #c47754 !important;
+  color: #0277BD !important;
+  background-color: #01579B !important;
 }
 </style>
