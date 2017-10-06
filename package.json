@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "description": "DurableDrupal Website",
   "author": "Victor Kane <victorkane@gmail.com>",
-  "config": {
-    "nuxt": {
-      "host": "0.0.0.0",
-      "port": "4072"
-    }
-  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -16,6 +10,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/dotenv": "^1.0.0",
     "nuxt": "^1.0.0-rc6",
     "vuetify": "^0.14.11"
   },

@@ -20,6 +20,9 @@ module.exports = {
   css: [
     '~/assets/style/app.styl'
   ],
+  modules: [
+    '@nuxtjs/dotenv'
+  ],
   /*
   ** Customize the progress-bar color
   */
@@ -45,3 +48,4 @@ module.exports = {
     }
   }
 }
+
