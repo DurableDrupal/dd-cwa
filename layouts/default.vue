@@ -20,7 +20,7 @@
       <v-toolbar-side-icon @click.stop="sideNav = !sideNav" class="hidden-sm-and-up"></v-toolbar-side-icon>
       <v-toolbar-title>
         <nuxt-link to="/">
-          <img class="logo" src="/logo-square-50.jpg" alt="DurableDrupal" title="DurableDrupal" />
+          <img class="logo" src="/logo-name-50.png" alt="DurableDrupal" title="DurableDrupal" />
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
@@ -90,10 +90,9 @@
 </script>
 
 <style>
-.application--light {
-  background-image: url("/img/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+
+.application--light .toolbar__title {
+  margin-left:0;
 }
 
 .application, .application>main>.container {
@@ -106,9 +105,9 @@
   height: auto;
 }
 
-.logo img {
+.application--light img.logo {
   width: 100%;
-  height: auto !important;
+  float: left;
 }
 
 </style>
