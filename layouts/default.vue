@@ -20,7 +20,7 @@
       <v-toolbar-side-icon @click.stop="sideNav = !sideNav" class="hidden-sm-and-up"></v-toolbar-side-icon>
       <v-toolbar-title>
         <nuxt-link to="/">
-          <img class="logo" src="/logo.png" alt="DurableDrupal" title="DurableDrupal" />
+          <img class="logo" src="/logo-square-50.jpg" alt="DurableDrupal" title="DurableDrupal" />
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
@@ -109,7 +109,6 @@
 .logo img {
   width: 100%;
   height: auto !important;
-  margin-top: 10px;
 }
 
 </style>
