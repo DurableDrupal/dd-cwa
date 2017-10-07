@@ -96,18 +96,24 @@
   background-image: url("/img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-/*  background-color: #5e92f3;*/
 }
 
 /* .application--light .card,*/ 
+/*
 .application--light .navigation-drawer,
 .application--light .navigation-drawer .list,
-.application--light .toolbar/*,
-.application--light .footer */ {
+.application--light .toolbar
+*/
+/* .application--light .footer */ 
+/*
+{
+*/
 /*  background-color: #0277bd;*/
+/*
   background-color: #0288d1;
   
 }
+*/
 
 .application, .application>main>.container {
   min-height: 100%;
@@ -117,7 +123,6 @@
 .application--light .footer {
   text-align: center;
   height: auto;
-/*  color: #5e92f3; */ 
 }
 
 .logo img {
