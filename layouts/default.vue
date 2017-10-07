@@ -70,7 +70,7 @@
         sideNav: false,
         items: [
           { icon: 'group', title: 'Support', to: '/support' },
-          { icon: 'group', title: 'Attract Clients', to: '/attractclients' },
+          // { icon: 'group', title: 'Attract Clients', to: '/attractclients' },
           { icon: 'create', title: 'Blog', to: '/blogs' },
           { icon: 'comment', title: 'Contact', to: '/contact' },
           { icon: 'info', title: 'Who we are', to: '/us' }
@@ -78,7 +78,7 @@
         footerItems: [
           { icon: 'home', title: 'Main', to: '/' },
           { icon: 'group', title: 'Support', to: '/support' },
-          { icon: 'group', title: 'Attract Clients', to: '/attractclients' },
+          // { icon: 'group', title: 'Attract Clients', to: '/attractclients' },
           { icon: 'create', title: 'Blog', to: '/blogs' },
           { icon: 'comment', title: 'Contact', to: '/contact' },
           { icon: 'info', title: 'Who we are', to: '/us' },
