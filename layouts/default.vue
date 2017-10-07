@@ -70,16 +70,15 @@
         sideNav: false,
         items: [
           { icon: 'group', title: 'Support', to: '/support' },
-          { icon: 'group', title: 'Atract Clients', to: '/atractclients' },
+          { icon: 'group', title: 'Attract Clients', to: '/attractclients' },
           { icon: 'create', title: 'Blog', to: '/blogs' },
           { icon: 'comment', title: 'Contact', to: '/contact' },
-          { icon: 'info', title: 'Who we are', to: '/us' },
-          { icon: 'info', title: 'Technology', to: '/technology' }
+          { icon: 'info', title: 'Who we are', to: '/us' }
         ],
         footerItems: [
           { icon: 'home', title: 'Main', to: '/' },
           { icon: 'group', title: 'Support', to: '/support' },
-          { icon: 'group', title: 'Atract Clients', to: '/atractclients' },
+          { icon: 'group', title: 'Attract Clients', to: '/attractclients' },
           { icon: 'create', title: 'Blog', to: '/blogs' },
           { icon: 'comment', title: 'Contact', to: '/contact' },
           { icon: 'info', title: 'Who we are', to: '/us' },
@@ -91,29 +90,11 @@
 </script>
 
 <style>
-/* colors based on https://material.io/guidelines/style/color.html#color-color-palette and not vuetify palette */
 .application--light {
   background-image: url("/img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/* .application--light .card,*/ 
-/*
-.application--light .navigation-drawer,
-.application--light .navigation-drawer .list,
-.application--light .toolbar
-*/
-/* .application--light .footer */ 
-/*
-{
-*/
-/*  background-color: #0277bd;*/
-/*
-  background-color: #0288d1;
-  
-}
-*/
 
 .application, .application>main>.container {
   min-height: 100%;
