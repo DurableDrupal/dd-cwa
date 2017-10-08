@@ -1,7 +1,7 @@
 <template>
  <v-container>
   <v-layout row wrap>
-    <v-flex xs12 sm3 v-for="blog in blogs" :key="blog.slug">
+    <v-flex xs12 sm6 md3 v-for="blog in blogs" :key="blog.slug">
       <v-card class="success ma-1">
         <v-card-title class="headline blog-card">
           <nuxt-link class="text--light-blue text--darken-3" :to="{ name: 'blogs-id', params: { id: blog.slug } }">
