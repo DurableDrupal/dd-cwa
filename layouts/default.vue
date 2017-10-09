@@ -20,9 +20,12 @@
       <v-toolbar-side-icon @click.stop="sideNav = !sideNav" class="hidden-sm-and-up"></v-toolbar-side-icon>
       <v-toolbar-title>
         <nuxt-link to="/">
-          <img class="logo" src="/logo-name-50.png" alt="DurableDrupal" title="DurableDrupal" />
+          <img class="logo" src="/logo-square-64.jpg" alt="DurableDrupal Content Migration Rescue" title="DurableDrupal Content Migration Rescue" />
         </nuxt-link>
       </v-toolbar-title>
+      <v-btn class="hidden-xs-only">
+        <div>DurableDrupal Content Migration Rescue</div>
+      </v-btn>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn
