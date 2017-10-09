@@ -1,7 +1,7 @@
 <template>
  <v-container>
   <v-layout row wrap>
-    <v-flex xs12 md4>
+    <v-flex xs12 sm4 mb-1>
       <v-card>
         <v-card-title class="headline">Community</v-card-title>
         <v-card-text>
@@ -14,7 +14,7 @@
         </v-card-text>
       </v-card>
     </v-flex>
-    <v-flex xs12 md4>
+    <v-flex xs12 sm4 mb-1>
       <v-card>
         <v-card-title class="headline">Mentors</v-card-title>
         <v-card-text>
@@ -27,7 +27,7 @@
         </v-card-text>
       </v-card>
     </v-flex>
-    <v-flex xs12 md4>
+    <v-flex xs12 sm4 mb-1>
       <v-card>
         <v-card-title class="headline">Rescue as a Service</v-card-title>
         <v-card-text>

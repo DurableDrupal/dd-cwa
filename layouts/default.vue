@@ -23,9 +23,11 @@
           <img class="logo" src="/logo-square-64.jpg" alt="DurableDrupal Content Migration Rescue" title="DurableDrupal Content Migration Rescue" />
         </nuxt-link>
       </v-toolbar-title>
-      <v-btn class="hidden-xs-only">
-        <div>DurableDrupal Content Migration Rescue</div>
-      </v-btn>
+      <v-toolbar-title class="ml-4">
+        <nuxt-link to="/">
+          <img class="logo-name" src="/logo-name-50.png" alt="DurableDrupal Content Migration Rescue" title="DurableDrupal Content Migration Rescue" />
+        </nuxt-link>
+      </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn
@@ -108,7 +110,8 @@
   height: auto;
 }
 
-.application--light img.logo {
+.application--light img.logo,
+.application--light img.logo-name {
   width: 100%;
   float: left;
 }
