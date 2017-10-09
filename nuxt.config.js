@@ -15,7 +15,7 @@ module.exports = {
       { rel: 'stylesheet', href: '/css/font-awesome.min.css' }
     ]
   },
-  plugins: ['~/plugins/vuetify.js'],
+  plugins: ['~/plugins/vuetify.js', '~/plugins/datei18n.js'],
   css: [
     '~/assets/style/app.styl'
   ],
@@ -30,7 +30,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ['vuetify'],
+    vendor: ['vuetify', 'axios'],
     extractCSS: true,
     /*
     ** Run ESLINT on save

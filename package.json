@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxtjs/dotenv": "^1.0.0",
     "axios": "^0.16.2",
+    "marked": "^0.3.6",
     "nuxt": "^1.0.0-rc6",
     "vuetify": "^0.14.11"
   },
