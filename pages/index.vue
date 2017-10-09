@@ -2,37 +2,13 @@
  <v-container>
   <v-layout row wrap>
     <v-flex xs12 sm4 mb-1>
-      <v-card>
-        <v-card-title class="headline">{{ featureCommunity.metaData.itemName }}</v-card-title>
-        <v-card-text>
-          <p>{{ featureCommunity.textBody.value }}</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; Victor Kane</small></em>
-          </div>
-        </v-card-text>
-      </v-card>
+      <FeatureCard :text="featureCommunity"></FeatureCard>
     </v-flex>
     <v-flex xs12 sm4 mb-1>
-      <v-card>
-        <v-card-title class="headline">{{ featureMentoring.metaData.itemName }}</v-card-title>
-        <v-card-text>
-          <p>{{ featureMentoring.textBody.value }}</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; Victor Kane</small></em>
-          </div>
-        </v-card-text>
-      </v-card>
+      <FeatureCard :text="featureMentoring"></FeatureCard>
     </v-flex>
     <v-flex xs12 sm4 mb-1>
-      <v-card>
-        <v-card-title class="headline">{{ featureRaas.metaData.itemName }}</v-card-title>
-        <v-card-text>
-          <p>{{ featureRaas.textBody.value }}</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; Victor Kane</small></em>
-          </div>
-        </v-card-text>
-      </v-card>
+      <FeatureCard :text="featureRaas"></FeatureCard>
     </v-flex>
   </v-layout>
  </v-container>
@@ -40,8 +16,12 @@
 
 <script>
   import axios from 'axios'
+  import FeatureCard from '../components/feature-card'
 
   export default {
+    components: {
+      FeatureCard
+    },
     async asyncData ({ params }) {
       let featureCommunity = await axios.get(process.env.scsurl + '/api/textsbyslug/community-20171009')
       let featureMentoring = await axios.get(process.env.scsurl + '/api/textsbyslug/mentoring-20171009')
