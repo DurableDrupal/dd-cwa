@@ -8,7 +8,7 @@
     <v-card-text class="ma-0 pa-0">
       <!-- <div class="body-1" v-html="marked(text.textBody.value)"></div> -->
       <div class="action-item" v-for="action in text.actions">
-        <v-btn class="ma-0 pa-0" flat :to="action.to">
+        <v-btn class="ma-0 pa-0" small block raised :to="action.to">
           <v-icon left light>{{ action.icon }}</v-icon>
           <div> {{ action.label }} </div>
         </v-btn>
