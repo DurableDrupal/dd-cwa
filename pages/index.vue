@@ -41,10 +41,10 @@
 
       let fc = featureCommunity.data
       let fcactions = []
-      fcactions.push({icon: 'book', label: 'read the book', to: '/read-the-book'})
-      fcactions.push({icon: 'code', label: 'grab the code', to: '/grab-the-code'})
-      fcactions.push({icon: 'file-text', label: 'see case studies', to: '/case-studies'})
-      fcactions.push({icon: 'map', label: 'manage your projects', to: '/manage-projects'})
+      fcactions.push({icon: 'fa-book', label: 'read the book', to: '/read-the-book'})
+      fcactions.push({icon: 'fa-code', label: 'grab the code', to: '/grab-the-code'})
+      fcactions.push({icon: 'fa-line-chart', label: 'see case studies', to: '/case-studies'})
+      fcactions.push({icon: 'fa-briefcase', label: 'your projects', to: '/manage-projects'})
       fc.actions = fcactions
       let fm = featureMentoring.data
       let fmactions = []
