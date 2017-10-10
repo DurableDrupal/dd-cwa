@@ -5,10 +5,16 @@
         <h5 class="text-title grey--text text--darken-2">{{ text.metaData.itemName }}</h5>
       </div>
     </v-card-title>
-    <v-card-text class="ma-0 pa-0">
+    <v-card-text class="ma-0 pa-0 pb-1">
       <!-- <div class="body-1" v-html="marked(text.textBody.value)"></div> -->
       <div class="action-item" v-for="action in text.actions">
-        <v-btn class="ma-0 pa-0" small block raised :to="action.to">
+        <v-btn 
+          class="ma-0 mb-2 pa-0"
+          small
+          block
+          :title="action.tooltip"
+          :alt="action.tooltip"
+          :to="action.to">
           <v-icon left light>{{ action.icon }}</v-icon>
           <div> {{ action.label }} </div>
         </v-btn>

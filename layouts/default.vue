@@ -35,6 +35,8 @@
           class="grey--text text--lighten-4"
           exact
           v-for="item in items"
+          :title="item.tooltip"
+          :alt="item.tooltip"
           :key="item.title"
           :to="item.to">
           <v-icon left success>{{ item.icon }}</v-icon>
