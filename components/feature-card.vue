@@ -35,6 +35,9 @@
 </script>
 
 <style>
+  .action-item a {
+    width: 100%;
+  }
   .application--light .btn,
   .application--light .btn .icon {
     /* color: #01579b!important; */

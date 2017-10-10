@@ -48,16 +48,16 @@
       fc.actions = fcactions
       let fm = featureMentoring.data
       let fmactions = []
-      fmactions.push({icon: 'fa-university', label: 'mentoring services', tooltip: 'Learn about mentoring services offered here', to: '/mentoring-program'})
-      fmactions.push({icon: 'fa-users', label: 'team mentorship', tooltip: 'Have mentors join your team as needed', to: '/team-mentorship'})
-      fmactions.push({icon: 'web', label: 'full stack mentorship', tooltip: 'Receive mentorship on all aspects of full stack javascript web application project development', to: '/full-stack-mentorship'})
+      fmactions.push({icon: 'fa-university', label: 'mentoring services', tooltip: 'Learn about mentoring services offered here', to: '/mentoring-services'})
+      fmactions.push({icon: 'fa-users', label: 'team mentoring', tooltip: 'Have mentors join your team as needed', to: '/team-mentorship'})
+      fmactions.push({icon: 'web', label: 'fullstack mentoring', tooltip: 'Receive mentorship on all aspects of full stack javascript web application project development', to: '/full-stack-mentorship'})
       fmactions.push({icon: 'fa-beer', label: 'free session', tooltip: 'Get a free online mentoring session', to: '/free-mentoring-session'})
       fm.actions = fmactions
       let fr = featureRaas.data
       let fractions = []
-      fractions.push({icon: 'fa-cog', label: 'web architecture options', tooltip: 'Learn about the best web architecture alternative available to you today', to: '/web-architecture-options'})
-      fractions.push({icon: 'fa-th-list', label: 'content migration options', tooltip: 'Learn about the best content migration options available today for your legacy Drupal site', to: '/content-migration-options'})
-      fractions.push({icon: 'fa-play', label: 'content migration services', tooltip: 'Learn about content migration rescue services offered here', to: '/raas'})
+      fractions.push({icon: 'fa-cog', label: 'web architecture', tooltip: 'Learn about the best web architecture alternative available to you today', to: '/web-architecture-options'})
+      fractions.push({icon: 'fa-th-list', label: 'content migration', tooltip: 'Learn about the best content migration options available today for your legacy Drupal site', to: '/content-migration-options'})
+      fractions.push({icon: 'fa-play', label: 'migration services', tooltip: 'Learn about content migration rescue services offered here', to: '/raas'})
       fractions.push({icon: 'fa-beer', label: 'free session', tooltip: 'Tell us about your project and get a free online content migration consulting session', to: '/free-consulting-session'})
       fr.actions = fractions
       return {
