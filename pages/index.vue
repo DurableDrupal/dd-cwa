@@ -1,7 +1,7 @@
 <template>
  <v-container>
   <v-layout row wrap>
-    <v-flex xs12 mb-2>
+    <v-flex xs12 mb-4>
       <v-card>
           <v-card-title primary-title> 
             <div>
@@ -13,13 +13,99 @@
     </v-flex>
   </v-layout>
   <v-layout row wrap>
-    <v-flex xs12 sm4 mb-1>
+    <v-flex xs12 sm4 mb-4>
+      <v-card>
+        <v-card-title primary-title> 
+          <div>
+            <v-btn 
+              small
+              round 
+              to="/move-on" 
+              title="What\'s making things change so much now?" 
+              alt="What\'s making everything change so much now?">
+              <div>Move on</div>
+            </v-btn>
+            to a semantically structured industry standard 
+            <v-btn 
+              small
+              round 
+              to="/web-architecture-options" 
+              title="Learn about the best web architecture alternative available to you today"
+              alt="Learn about the best web architecture alternative available to you today">
+            content model
+            </v-btn>
+            tailored to your app
+          </div>
+        </v-card-title> 
+      </v-card>
+    </v-flex>
+    <v-flex xs12 sm4 mb-4>
+      <v-card>
+        <v-card-title primary-title> 
+          <div>
+            <v-btn 
+              small
+              round 
+              to="/move-on" 
+              title="What\'s making things change so much now?" 
+              alt="What\'s making everything change so much now?">
+              Move on
+            </v-btn>
+            from the Drupal monolith to an open and truly modern
+            <v-btn 
+              small
+              round 
+              to="/web-architecture-options" 
+              title="Learn about the best web architecture alternative available to you today"
+              alt="Learn about the best web architecture alternative available to you today">
+              API-first
+            </v-btn>architecture
+          </div>
+        </v-card-title> 
+      </v-card>
+    </v-flex>
+    <v-flex xs12 sm4 mb-4>
+      <v-card>
+        <v-card-title primary-title> 
+          <div>
+            <v-btn 
+              small
+              round 
+              to="/read-the-book" 
+              title="Learn how we ate our own dogfood for the content migration and rescue of Drupal 6 AWebFactory.com"
+              alt="Learn how we ate our own dogfood for the content migration and rescue of Drupal 6 AWebFactory.com">
+              Read the book
+            </v-btn>
+            <v-btn 
+              small
+              round 
+              to="/grab-the-code" 
+              title="Grab the code from the Github repo"
+              alt="Grab the code from the Github repo">
+            grab the code 
+            </v-btn>
+            direct your own content migration rescue, or 
+            <v-btn 
+              small
+              round 
+              to="/raas" 
+              title="Learn about the content migration rescue services you can contract right here"
+              alt="Learn about the content migration rescue services you can contract right here">
+            use our services
+            </v-btn>
+          </div>
+        </v-card-title> 
+      </v-card>
+    </v-flex>
+  </v-layout>
+  <v-layout row wrap>
+    <v-flex xs12 sm4 mb-4>
       <FeatureCard :text="featureCommunity"></FeatureCard>
     </v-flex>
-    <v-flex xs12 sm4 mb-1>
+    <v-flex xs12 sm4 mb-4>
       <FeatureCard :text="featureMentoring"></FeatureCard>
     </v-flex>
-    <v-flex xs12 sm4 mb-1>
+    <v-flex xs12 sm4 mb-4>
       <FeatureCard :text="featureRaas"></FeatureCard>
     </v-flex>
   </v-layout>
@@ -42,7 +128,7 @@
       let fc = featureCommunity.data
       let fcactions = []
       fcactions.push({icon: 'fa-book', label: 'read the book', tooltip: 'Read the book', to: '/read-the-book'})
-      fcactions.push({icon: 'fa-code', label: 'grab the code', tooltip: 'Grap the code from the Github repo', to: '/grab-the-code'})
+      fcactions.push({icon: 'fa-code', label: 'grab the code', tooltip: 'Grab the code from the Github repo', to: '/grab-the-code'})
       fcactions.push({icon: 'fa-line-chart', label: 'see case studies', tooltip: 'See case studies and examples contributed by the community', to: '/case-studies'})
       fcactions.push({icon: 'fa-briefcase', label: 'your projects', to: '/manage-projects'})
       fc.actions = fcactions
@@ -68,3 +154,10 @@
     }
   }
 </script>
+
+<style>
+.application-light .btn__content {
+  background-color: pink;
+  color: brown;
+}
+</style>
